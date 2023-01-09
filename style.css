@@ -1,0 +1,79 @@
+body{
+    background-color:	#E37383;
+   
+}
+
+.container{
+    border: 10px solid none;
+    max-width: 10cm;
+    margin-top: 3cm;
+    padding: 1cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000000;
+  
+}
+
+.containersub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+    margin-top: 20px;
+    margin-left: 15px;
+    
+}
+
+.btn{
+    margin: 5px;
+    width: 45px;
+    border-radius: 1cm;
+    
+}
+
+
+
+ #divide, #multiply, #subtract, #add, #modulus  {
+   border: none;
+    background-image: linear-gradient(to right, #eb3349, #f45c43);
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 4px 4px 6px #000000;
+      
+}
+
+#equal,#clear,#delete,#decimal{
+    border: none;
+    background-image: linear-gradient(to right, #aa076b ,  #61045f);
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 4px 4px 6px #000000;
+}
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#zero,#zeroes{
+    background-image: linear-gradient(to right, #1EADF0 ,  #0AFB60);
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+    text-shadow: 2px 2px 6px #000000;  
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #ffffff;
+    text-align: center;
+    margin-bottom: 1cm;
+  }
+
+.form-control{
+    border: none;
+    background-image: linear-gradient(to right,  #61045f,  #aa076b );
+    color: white;
+    height: 2cm;
+    
+    
+
+}
+
+input{
+    text-align: end;
+}
+

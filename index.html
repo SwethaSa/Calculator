@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/smartphone-flat-design/512/Smartphone_icon_11_Calculator-512.png"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="input-group input-group-lg">
+            <input type="text" id="input" class="form-control" placeholder="0">
+          </div>
+          <div class="containersub">
+            <button id="clear" onclick="Clear()" class="btn btn-dark">C</button>
+            <button id="delete" onclick="Delete()" class="btn btn-dark">⬅</button>
+            <button id="decimal" onclick="display('.')" class="btn btn-dark">.</button>
+            <button id="modulus"  onclick="display('%')" class="btn btn-dark">%</button>
+            <button id="one" onclick="display('7')" class="btn btn-dark">7</button>
+            <button id="two" onclick="display('8')" class="btn btn-dark">8</button>
+            <button id="three" onclick="display('9')" class="btn btn-dark">9</button>
+            <button id="multiply" onclick="display('*')" class="btn btn-dark">*</button>
+            <button id="four" onclick="display('4')" class="btn btn-dark">4</button>
+            <button id="five" onclick="display('5')" class="btn btn-dark">5</button>
+            <button id="six" onclick="display('6')" class="btn btn-dark">6</button>
+            <button id="subtract" onclick="display('-')" class="btn btn-dark">-</button>
+            <button id="seven" onclick="display('1')" class="btn btn-dark">1</button>
+            <button id="eight" onclick="display('2')" class="btn btn-dark">2</button>
+            <button id="nine" onclick="display('3')" class="btn btn-dark">3</button>
+            <button id="add" onclick="display('+')" class="btn btn-dark">+</button>
+            <button id="zero" onclick="display('0')" class="btn btn-dark">0</button>
+            <button id="zeroes" onclick="display('00')" class="btn btn-dark">00</button>
+            <button id="divide" onclick="display('/')" class="btn btn-dark">/</button>
+            <button id="equal" onclick="Calculate()" class="btn btn-dark">=</button>
+          </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
